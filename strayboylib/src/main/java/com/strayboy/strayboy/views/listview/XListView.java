@@ -14,7 +14,7 @@ import android.widget.RelativeLayout;
 import android.widget.Scroller;
 import android.widget.TextView;
 
-
+import com.strayboy.strayboy.R;
 
 
 /**
@@ -34,7 +34,7 @@ public class XListView extends ListView implements OnScrollListener {
     private IXListViewListener mListViewListener;
 
     // -- header view
-    private com.staryboy.strayboy.views.listview.XListViewHeader mHeaderView;
+    private XListViewHeader mHeaderView;
     // header view content, use it to calculate the Header's height. And hide it
     // when disable pull refresh.
     private RelativeLayout mHeaderViewContent;
@@ -44,7 +44,7 @@ public class XListView extends ListView implements OnScrollListener {
     private boolean mPullRefreshing = false; // is refreashing.
 
     // -- footer view
-    private com.staryboy.strayboy.views.listview.XListViewFooter mFooterView;
+    private XListViewFooter mFooterView;
     private boolean mEnablePullLoad;
     private boolean mPullLoading;
     private boolean mIsFooterReady = false;
@@ -89,13 +89,13 @@ public class XListView extends ListView implements OnScrollListener {
         super.setOnScrollListener(this);
 
         // init header view
-        mHeaderView = new com.staryboy.strayboy.views.listview.XListViewHeader(context);
+        mHeaderView = new XListViewHeader(context);
         mHeaderViewContent = (RelativeLayout) mHeaderView.findViewById(R.id.xlistview_header_content);
         mHeaderTimeView = (TextView) mHeaderView.findViewById(R.id.xlistview_header_time);
         addHeaderView(mHeaderView);
 
         // init footer view
-        mFooterView = new com.staryboy.strayboy.views.listview.XListViewFooter(context);
+        mFooterView = new XListViewFooter(context);
 
         // init header height
         mHeaderView.getViewTreeObserver().addOnGlobalLayoutListener(new OnGlobalLayoutListener() {
@@ -148,7 +148,7 @@ public class XListView extends ListView implements OnScrollListener {
         } else {
             mPullLoading = false;
             mFooterView.show();
-            mFooterView.setState(com.staryboy.strayboy.views.listview.XListViewFooter.STATE_NORMAL);
+            mFooterView.setState(XListViewFooter.STATE_NORMAL);
             // make sure "pull up" don't show a line in bottom when listview
             // with one page
             setFooterDividersEnabled(true);
@@ -178,7 +178,7 @@ public class XListView extends ListView implements OnScrollListener {
     public void stopLoadMore() {
         if (mPullLoading == true) {
             mPullLoading = false;
-            mFooterView.setState(com.staryboy.strayboy.views.listview.XListViewFooter.STATE_NORMAL);
+            mFooterView.setState(XListViewFooter.STATE_NORMAL);
         }
     }
 
@@ -202,9 +202,9 @@ public class XListView extends ListView implements OnScrollListener {
         mHeaderView.setVisiableHeight((int) delta + mHeaderView.getVisiableHeight());
         if (mEnablePullRefresh && !mPullRefreshing) { // 未处于刷新状态，更新箭头
             if (mHeaderView.getVisiableHeight() > mHeaderViewHeight) {
-                mHeaderView.setState(com.staryboy.strayboy.views.listview.XListViewHeader.STATE_READY);
+                mHeaderView.setState(XListViewHeader.STATE_READY);
             } else {
-                mHeaderView.setState(com.staryboy.strayboy.views.listview.XListViewHeader.STATE_NORMAL);
+                mHeaderView.setState(XListViewHeader.STATE_NORMAL);
             }
         }
         setSelection(0); // scroll to top each time
@@ -237,9 +237,9 @@ public class XListView extends ListView implements OnScrollListener {
         if (mEnablePullLoad && !mPullLoading) {
             if (height > PULL_LOAD_MORE_DELTA) { // height enough to invoke load
                 // more.
-                mFooterView.setState(com.staryboy.strayboy.views.listview.XListViewFooter.STATE_READY);
+                mFooterView.setState(XListViewFooter.STATE_READY);
             } else {
-                mFooterView.setState(com.staryboy.strayboy.views.listview.XListViewFooter.STATE_NORMAL);
+                mFooterView.setState(XListViewFooter.STATE_NORMAL);
             }
         }
         mFooterView.setBottomMargin(height);
@@ -258,7 +258,7 @@ public class XListView extends ListView implements OnScrollListener {
 
     private void startLoadMore() {
         mPullLoading = true;
-        mFooterView.setState(com.staryboy.strayboy.views.listview.XListViewFooter.STATE_LOADING);
+        mFooterView.setState(XListViewFooter.STATE_LOADING);
         if (mListViewListener != null) {
             mListViewListener.onLoadMore();
         }
@@ -293,7 +293,7 @@ public class XListView extends ListView implements OnScrollListener {
                     // invoke refresh
                     if (mEnablePullRefresh && mHeaderView.getVisiableHeight() > mHeaderViewHeight) {
                         mPullRefreshing = true;
-                        mHeaderView.setState(com.staryboy.strayboy.views.listview.XListViewHeader.STATE_REFRESHING);
+                        mHeaderView.setState(XListViewHeader.STATE_REFRESHING);
                         if (mListViewListener != null) {
                             mListViewListener.onRefresh();
                         }

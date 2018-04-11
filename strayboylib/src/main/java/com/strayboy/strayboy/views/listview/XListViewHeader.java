@@ -1,4 +1,4 @@
-package com.staryboy.strayboy.views.listview;
+package com.strayboy.strayboy.views.listview;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -12,7 +12,7 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.xianghui.strayboy.R;
+import com.strayboy.strayboy.R;
 
 
 /**

@@ -1,4 +1,4 @@
-package com.staryboy.strayboy.utils;
+package com.strayboy.strayboy.utils;
 
 import android.annotation.TargetApi;
 import android.app.Activity;

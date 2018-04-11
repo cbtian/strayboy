@@ -5,9 +5,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 
-import com.xianghui.strayboy.base.BaseActivity;
-import com.xianghui.strayboy.base.BaseApplication;
-import com.xianghui.strayboy.utils.NetWorkUtils;
+import com.strayboy.strayboy.base.BaseActivity;
+import com.strayboy.strayboy.base.BaseApplication;
+import com.strayboy.strayboy.utils.NetWorkUtils;
+
 
 /**
  * Created by admin on 2017/9/4.
@@ -15,7 +16,7 @@ import com.xianghui.strayboy.utils.NetWorkUtils;
 
 public class NetBroadcastReceiver extends BroadcastReceiver {
 
-    public com.staryboy.strayboy.http.net.NetEvevt evevt = BaseActivity.evevt;
+    public NetEvevt evevt = BaseActivity.evevt;
 
     @Override
     public void onReceive(Context context, Intent intent) {

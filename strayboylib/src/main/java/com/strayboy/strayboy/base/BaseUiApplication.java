@@ -5,8 +5,8 @@ import android.app.Application;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.xianghui.strayboy.http.net.CommonModel;
-import com.xianghui.strayboy.views.MyToast;
+import com.strayboy.strayboy.http.net.CommonModel;
+import com.strayboy.strayboy.views.MyToast;
 
 import java.util.ArrayList;
 

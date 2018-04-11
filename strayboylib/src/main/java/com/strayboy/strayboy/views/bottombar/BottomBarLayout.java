@@ -9,7 +9,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.staryboy.staryboy.R;
+import com.strayboy.strayboy.R;
 
 import java.util.ArrayList;
 import java.util.List;

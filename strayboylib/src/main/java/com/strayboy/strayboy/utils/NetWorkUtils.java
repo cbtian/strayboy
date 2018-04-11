@@ -1,10 +1,11 @@
-package com.staryboy.strayboy.utils;
+package com.strayboy.strayboy.utils;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
-import com.xianghui.strayboy.base.BaseApplication;
+import com.strayboy.strayboy.base.BaseApplication;
+
 
 /**
  * Created by tiancb on 2018/4/10.

@@ -14,16 +14,17 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.TextView;
 
-import com.xianghui.strayboy.R;
-import com.xianghui.strayboy.http.net.NetEvevt;
-import com.xianghui.strayboy.utils.StatusBarUtil;
-import com.xianghui.strayboy.views.MdStyleProgress;
+import com.strayboy.strayboy.R;
+import com.strayboy.strayboy.http.net.NetEvevt;
+import com.strayboy.strayboy.utils.StatusBarUtil;
+import com.strayboy.strayboy.views.MdStyleProgress;
+
 
 /**
  * Created by tiancb on 2018/4/10.
  */
 
-public class BaseUiActivity extends AppCompatActivity implements NetEvevt{
+public class BaseUiActivity extends AppCompatActivity implements NetEvevt {
 
     public static final int LOADING_WAIT_TIME = 2500;
     public static final int LOADING_WAIT_TIME_SHORT = 1500;

@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.strayboy.strayboy.R;
 
 
 /**

@@ -14,7 +14,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.staryboy.staryboy.R;
+import com.strayboy.strayboy.R;
 
 import java.util.Locale;
 

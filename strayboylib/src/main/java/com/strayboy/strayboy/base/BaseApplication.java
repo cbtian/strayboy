@@ -14,7 +14,7 @@ import java.io.File;
  * Created by tiancb on 2018/4/10.
  */
 
-public class BaseApplication extends com.staryboy.strayboy.base.BaseUiApplication {
+public class BaseApplication extends BaseUiApplication {
     private RequestQueue requestQueue;
     private static BaseApplication instance;
     @Override

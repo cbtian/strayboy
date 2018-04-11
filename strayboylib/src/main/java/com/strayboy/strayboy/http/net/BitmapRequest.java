@@ -12,7 +12,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.HttpHeaderParser;
 import com.google.gson.Gson;
-import com.xianghui.strayboy.base.BaseApplication;
+import com.strayboy.strayboy.base.BaseApplication;
 
 import org.apache.http.entity.mime.HttpMultipartMode;
 import org.apache.http.entity.mime.MultipartEntityBuilder;

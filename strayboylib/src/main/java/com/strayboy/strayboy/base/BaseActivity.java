@@ -8,7 +8,7 @@ import android.support.annotation.Nullable;
  * Created by tiancb on 2018/4/10.
  */
 
-public class BaseActivity extends com.staryboy.strayboy.base.BaseUiActivity {
+public class BaseActivity extends BaseUiActivity {
 
     public static String BUNDLE = "bundle";
 

@@ -9,8 +9,8 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.HttpHeaderParser;
 import com.google.gson.Gson;
-import com.xianghui.strayboy.base.BaseApplication;
-import com.xianghui.strayboy.utils.NetWorkUtils;
+import com.strayboy.strayboy.base.BaseApplication;
+import com.strayboy.strayboy.utils.NetWorkUtils;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;

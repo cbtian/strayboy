@@ -2,8 +2,8 @@ package com.strayboy.strayboy.http.net;
 
 import android.util.Log;
 
-import com.xianghui.strayboy.base.BaseApplication;
-import com.xianghui.strayboy.utils.MD5Utils;
+import com.strayboy.strayboy.base.BaseApplication;
+import com.strayboy.strayboy.utils.MD5Utils;
 
 import java.io.UnsupportedEncodingException;
 import java.lang.reflect.Field;
