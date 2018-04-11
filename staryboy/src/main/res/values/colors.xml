@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#00000000</color>
+    <color name="app_main_color">#00bfa2</color>
+
+    <color name="gray_68">#686868</color>
+    <color name="gray_33">#333333</color>
+    <color name="gray_99">#999999</color>
+    <color name="gray_9B">#9B9B9B</color>
+    <color name="gray_c7">#C7C7C7</color>
+    <color name="gray_D9">#d9d9d9</color>
+    <color name="gray_e4">#E4E4E4</color>
+    <color name="gray_f6">#f6f6f6</color>
+    <color name="gray_f7">#f7f7f7</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+
+    <!--滚轮相关颜色-->
+    <color name="pickerview_timebtn_pre">#c2daf5</color>
+    <color name="pickerview_bg_topbar">#f5f5f5</color>
+    <color name="pickerview_topbar_title">#000000</color>
+    <color name="pickerview_bgColor_overlay">#60000000</color>
+</resources>

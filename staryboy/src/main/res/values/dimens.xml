@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--项目中字体大小-->
+    <dimen name="text_size_6sp">6sp</dimen>
+    <dimen name="text_size_10sp">10sp</dimen>
+    <dimen name="text_size_11sp">11sp</dimen>
+    <dimen name="text_size_12sp">12sp</dimen>
+    <dimen name="text_size_13sp">13sp</dimen>
+    <dimen name="text_size_14sp">14sp</dimen>
+    <dimen name="text_size_15sp">15sp</dimen>
+    <dimen name="text_size_16sp">16sp</dimen>
+    <dimen name="text_size_17sp">17sp</dimen>
+    <dimen name="text_size_18sp">18sp</dimen>
+    <dimen name="text_size_20sp">20sp</dimen>
+    <dimen name="text_size_24sp">24sp</dimen>
+    <dimen name="text_size_28sp">28sp</dimen>
+    <dimen name="text_size_35sp">35sp</dimen>
+    <dimen name="text_size_40sp">40sp</dimen>
+    <dimen name="text_size_45sp">45sp</dimen>
+
+    <!--项目中控件边界大小-->
+    <dimen name="dimen_0.5dip">0.5dip</dimen>
+    <dimen name="dimen_0dip">0dip</dimen>
+    <dimen name="dimen_1dip">1dip</dimen>
+    <dimen name="dimen_2dip">2dip</dimen>
+    <dimen name="dimen_3dip">3dip</dimen>
+    <dimen name="dimen_4dip">4dip</dimen>
+    <dimen name="dimen_5dip">5dip</dimen>
+    <dimen name="dimen_6dip">6dip</dimen>
+    <dimen name="dimen_7dip">7dip</dimen>
+    <dimen name="dimen_8dip">8dip</dimen>
+    <dimen name="dimen_9dip">9dip</dimen>
+    <dimen name="dimen_10dip">10dip</dimen>
+    <dimen name="dimen_10.5dip">10.5dip</dimen>
+    <dimen name="dimen_11dip">11dip</dimen>
+    <dimen name="dimen_12dip">12dip</dimen>
+    <dimen name="dimen_13dip">13dip</dimen>
+    <dimen name="dimen_14dip">14dip</dimen>
+    <dimen name="dimen_15dip">15dip</dimen>
+    <dimen name="dimen_16dip">16dip</dimen>
+    <dimen name="dimen_17dip">17dip</dimen>
+    <dimen name="dimen_18dip">18dip</dimen>
+    <dimen name="dimen_19dip">19dip</dimen>
+    <dimen name="dimen_20dip">20dip</dimen>
+    <dimen name="dimen_21dip">21dip</dimen>
+    <dimen name="dimen_22dip">22dip</dimen>
+    <dimen name="dimen_23dip">23dip</dimen>
+    <dimen name="dimen_24dip">24dip</dimen>
+    <dimen name="dimen_25dip">25dip</dimen>
+    <dimen name="dimen_26dip">26dip</dimen>
+    <dimen name="dimen_27dip">27dip</dimen>
+    <dimen name="dimen_28dip">28dip</dimen>
+    <dimen name="dimen_30dip">30dip</dimen>
+    <dimen name="dimen_31dip">31dip</dimen>
+    <dimen name="dimen_33dip">33dip</dimen>
+    <dimen name="dimen_35dip">35dip</dimen>
+    <dimen name="dimen_38dip">38dip</dimen>
+    <dimen name="dimen_39dip">39dip</dimen>
+    <dimen name="dimen_40dip">40dip</dimen>
+    <dimen name="dimen_44dip">44dip</dimen>
+    <dimen name="dimen_45dip">45dip</dimen>
+    <dimen name="dimen_47dip">47dip</dimen>
+    <dimen name="dimen_48dip">48dip</dimen>
+    <dimen name="dimen_50dip">50dip</dimen>
+    <dimen name="dimen_49dip">49dip</dimen>
+    <dimen name="dimen_55dip">55dip</dimen>
+    <dimen name="dimen_60dip">60dip</dimen>
+    <dimen name="dimen_63dip">63dip</dimen>
+    <dimen name="dimen_65dip">65dip</dimen>
+    <dimen name="dimen_70dip">70dip</dimen>
+    <dimen name="dimen_75dip">75dip</dimen>
+    <dimen name="dimen_100dip">100dip</dimen>
+    <dimen name="dimen_270dip">270dip</dimen>
+
+
+</resources>
