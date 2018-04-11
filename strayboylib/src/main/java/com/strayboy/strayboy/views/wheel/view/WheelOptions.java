@@ -1,12 +1,12 @@
-package com.staryboy.strayboy.views.wheel.view;
+package com.strayboy.strayboy.views.wheel.view;
 
 import android.graphics.Typeface;
 import android.view.View;
 
-import com.xianghui.strayboy.R;
-import com.xianghui.strayboy.views.wheel.adapter.ArrayWheelAdapter;
-import com.xianghui.strayboy.views.wheel.lib.WheelView;
-import com.xianghui.strayboy.views.wheel.listener.OnItemSelectedListener;
+import com.strayboy.strayboy.R;
+import com.strayboy.strayboy.views.wheel.adapter.ArrayWheelAdapter;
+import com.strayboy.strayboy.views.wheel.lib.WheelView;
+import com.strayboy.strayboy.views.wheel.listener.OnItemSelectedListener;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.staryboy.strayboy.views.wheel.listener;
+package com.strayboy.strayboy.views.wheel.listener;
 
 /**
  * Created by Sai on 15/8/9.

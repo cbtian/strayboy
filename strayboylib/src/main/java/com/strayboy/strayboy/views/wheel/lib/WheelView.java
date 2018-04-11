@@ -1,4 +1,4 @@
-package com.staryboy.strayboy.views.wheel.lib;
+package com.strayboy.strayboy.views.wheel.lib;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -16,10 +16,10 @@ import android.view.Gravity;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.xianghui.strayboy.R;
-import com.xianghui.strayboy.views.wheel.adapter.WheelAdapter;
-import com.xianghui.strayboy.views.wheel.listener.OnItemSelectedListener;
-import com.xianghui.strayboy.views.wheel.model.IPickerViewData;
+import com.strayboy.strayboy.R;
+import com.strayboy.strayboy.views.wheel.adapter.WheelAdapter;
+import com.strayboy.strayboy.views.wheel.listener.OnItemSelectedListener;
+import com.strayboy.strayboy.views.wheel.model.IPickerViewData;
 
 import java.util.Locale;
 import java.util.concurrent.Executors;

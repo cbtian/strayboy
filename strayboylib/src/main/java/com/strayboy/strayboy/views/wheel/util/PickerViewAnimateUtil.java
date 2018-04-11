@@ -1,8 +1,8 @@
-package com.staryboy.strayboy.views.wheel.util;
+package com.strayboy.strayboy.views.wheel.util;
 
 import android.view.Gravity;
 
-import com.xianghui.strayboy.R;
+import com.strayboy.strayboy.R;
 
 
 /**

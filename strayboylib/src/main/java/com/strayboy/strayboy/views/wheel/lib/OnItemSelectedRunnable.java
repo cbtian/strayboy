@@ -1,4 +1,4 @@
-package com.staryboy.strayboy.views.wheel.lib;
+package com.strayboy.strayboy.views.wheel.lib;
 
 final class OnItemSelectedRunnable implements Runnable {
     final WheelView loopView;

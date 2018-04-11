@@ -1,4 +1,4 @@
-package com.staryboy.strayboy.views.wheel.adapter;
+package com.strayboy.strayboy.views.wheel.adapter;
 
 public interface WheelAdapter<T> {
     /**
