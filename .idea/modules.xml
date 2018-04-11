@@ -5,8 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/galleryfinal-master/galleryfinal-master.iml" filepath="$PROJECT_DIR$/galleryfinal-master/galleryfinal-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/photoselector/photoselector.iml" filepath="$PROJECT_DIR$/photoselector/photoselector.iml" />
-      <module fileurl="file://$PROJECT_DIR$/staryboy/staryboy.iml" filepath="$PROJECT_DIR$/staryboy/staryboy.iml" />
       <module fileurl="file://$PROJECT_DIR$/strayboy.iml" filepath="$PROJECT_DIR$/strayboy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/strayboylib/strayboylib.iml" filepath="$PROJECT_DIR$/strayboylib/strayboylib.iml" />
     </modules>
   </component>
 </project>

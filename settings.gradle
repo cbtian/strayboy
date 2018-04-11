@@ -1,1 +1,1 @@
-include ':app',':staryboy',":photoselector", ':galleryfinal-master'
+include ':app', ':strayboylib',":photoselector", ':galleryfinal-master'
