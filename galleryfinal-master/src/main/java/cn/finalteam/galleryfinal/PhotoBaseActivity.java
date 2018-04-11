@@ -143,7 +143,7 @@ public abstract class PhotoBaseActivity extends Activity implements EasyPermissi
 //                    ContentValues contentValues = new ContentValues(1);
 //                    contentValues.put(MediaStore.Images.Media.DATA,filePath);
                     captureIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
-                    mTakePhotoUri = FileProvider.getUriForFile(this, "com.mw.mwapp.fileProvider", toFile);//通过FileProvider创建一个content类型的Uri
+                    mTakePhotoUri = FileProvider.getUriForFile(this, "com.tiancb.strayboy.fileProvider", toFile);//通过FileProvider创建一个content类型的Uri
 
 //                    mTakePhotoUri = getContentResolver().insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI,contentValues);
                     captureIntent.putExtra(MediaStore.EXTRA_OUTPUT, mTakePhotoUri);

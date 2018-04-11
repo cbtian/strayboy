@@ -1,4 +1,4 @@
-package com.staryboy.strayboy.views.wheel;
+package com.strayboy.strayboy.views.wheel;
 
 import android.content.Context;
 import android.graphics.Typeface;
@@ -11,11 +11,11 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.xianghui.strayboy.R;
-import com.xianghui.strayboy.views.wheel.lib.WheelView;
-import com.xianghui.strayboy.views.wheel.listener.CustomListener;
-import com.xianghui.strayboy.views.wheel.view.BasePickerView;
-import com.xianghui.strayboy.views.wheel.view.WheelOptions;
+import com.strayboy.strayboy.R;
+import com.strayboy.strayboy.views.wheel.lib.WheelView;
+import com.strayboy.strayboy.views.wheel.listener.CustomListener;
+import com.strayboy.strayboy.views.wheel.view.BasePickerView;
+import com.strayboy.strayboy.views.wheel.view.WheelOptions;
 
 import java.util.List;
 

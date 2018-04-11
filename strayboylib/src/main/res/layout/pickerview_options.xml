@@ -16,19 +16,19 @@
         android:background="@android:color/white"
         android:orientation="horizontal">
 
-        <com.mw.mwapp.view.wheel.lib.WheelView
+        <com.strayboy.strayboy.views.wheel.lib.WheelView
             android:id="@+id/options1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
 
-        <com.mw.mwapp.view.wheel.lib.WheelView
+        <com.strayboy.strayboy.views.wheel.lib.WheelView
             android:id="@+id/options2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
 
-        <com.mw.mwapp.view.wheel.lib.WheelView
+        <com.strayboy.strayboy.views.wheel.lib.WheelView
             android:id="@+id/options3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

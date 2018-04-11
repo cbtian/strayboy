@@ -7,6 +7,7 @@ import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.ClearCacheRequest;
 import com.android.volley.toolbox.DiskBasedCache;
 import com.android.volley.toolbox.Volley;
+import com.strayboy.strayboy.http.net.CommonModel;
 
 import java.io.File;
 
@@ -21,6 +22,7 @@ public class BaseApplication extends BaseUiApplication {
     public void onCreate() {
         super.onCreate();
         instance = this;
+        CommonModel.initEnv();
     }
     public static BaseApplication getInstance() {
         return instance;

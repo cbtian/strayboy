@@ -14,7 +14,7 @@ import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
 
-import com.xianghui.strayboy.R;
+import com.strayboy.strayboy.R;
 
 
 /**
@@ -61,16 +61,15 @@ public class MdStyleProgress extends View {
         int indexCount = typedArray.getIndexCount();
         for (int i = 0; i < indexCount; i++) {
             int attr = typedArray.getIndex(i);
-            switch (attr) {
-                case R.styleable.MdStyleProgress_progress_color:
-                    mProgressColor = typedArray.getColor(attr, PROGRESS_COLOR);
-                    break;
-                case R.styleable.MdStyleProgress_progress_width:
-                    mProgressWidth = (int) typedArray.getDimension(attr, mProgressWidth);
-                    break;
-                case R.styleable.MdStyleProgress_radius:
-                    mRadius = (int) typedArray.getDimension(attr, mRadius);
-                    break;
+            if (attr == R.styleable.MdStyleProgress_progress_color) {
+                mProgressColor = typedArray.getColor(attr, PROGRESS_COLOR);
+
+            } else if (attr == R.styleable.MdStyleProgress_progress_width) {
+                mProgressWidth = (int) typedArray.getDimension(attr, mProgressWidth);
+
+            } else if (attr == R.styleable.MdStyleProgress_radius) {
+                mRadius = (int) typedArray.getDimension(attr, mRadius);
+
             }
         }
         //回收TypedArray对象
