@@ -4,5 +4,6 @@
 
 1、新添加refreshview 和 XListview控件  refreshview用于使用不同布局管理器，以及加载定制加载动画
 XListview 用于传统上下拉界面
+
 2、添加圆形头像控件 RoundImageView
 
