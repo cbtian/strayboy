@@ -1,0 +1,3 @@
+1、DialogFragment 代替popupWindow显示底部弹框
+2、享惠项目中SlideView  实现侧滑删除 控件
+3、TextPathView 实现把文字转化成动画展现出来路径的自定义控件   https://github.com/totond/TextPathView
