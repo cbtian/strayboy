@@ -95,7 +95,9 @@ public class ModelRequest<T extends CommonModel> extends Request<T> {
         this.params = CommonModel.createLinkMap(params);
         appendSn();
     }
-
+    public void setHeader(Map<String,String> header){
+        this.header = header;
+    }
 
     private void appendSn() {
         if (params.size() > 0) {
@@ -167,7 +169,7 @@ public class ModelRequest<T extends CommonModel> extends Request<T> {
 //                app.showShortToast(tips);
 //            }
 
-            return Response.error(new VolleyError(exceptionModel.errcode + ""));
+            return Response.error(new VolleyError(  ""));
         }
     }
 
